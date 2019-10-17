@@ -9,14 +9,16 @@
     color: #FFE082;
     background-color: #009688;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 4em;
 }
 
 /*menus*/
 
 img
 {
-    width: 210px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 #content
@@ -29,12 +31,21 @@ img
 {
     display: flex;
     margin: auto;
+    justify-content: center;
 }
 
 #bottom
 {
     display: flex;
     margin: auto;
+    justify-content: center;
+}
+
+.menu
+{
+    box-shadow: 2px 2px 19px #b7b6b6;
+    margin: 15px;
+    width: 600px;
 }
 
 
@@ -45,12 +56,21 @@ img
     text-align: center;
     background-color: #009688;
     color: #FFE082;
+    margin-bottom: 125px;
+    margin-right: 45%;
+    margin-left: 45%;
+    font-size: 25px;
+    border-radius: 5px;
 }
 
 footer
 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #009688;
     color: #FFE082;
+    font-size: 25px;
 }
