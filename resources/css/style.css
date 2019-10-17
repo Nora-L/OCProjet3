@@ -1,0 +1,56 @@
+
+
+
+/*haut de la page*/
+
+#titre
+{
+    text-align: center;
+    color: #FFE082;
+    background-color: #009688;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/*menus*/
+
+img
+{
+    width: 210px;
+}
+
+#content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#top
+{
+    display: flex;
+    margin: auto;
+}
+
+#bottom
+{
+    display: flex;
+    margin: auto;
+}
+
+
+/*bas de page*/
+
+#next
+{
+    text-align: center;
+    background-color: #009688;
+    color: #FFE082;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    background-color: #009688;
+    color: #FFE082;
+}
