@@ -3,13 +3,17 @@
 
 /*haut de la page*/
 
-#titre
+#logo
 {
-    text-align: center;
-    color: #FFE082;
     background-color: #009688;
-    font-weight: bold;
-    font-size: 4em;
+}
+
+.entete
+{
+    margin: auto;
+    width: 565px;
+    padding: 77px;
+    text-align: center;;
 }
 
 /*menus*/
@@ -43,11 +47,23 @@ img
 
 .menu
 {
-    box-shadow: 2px 2px 19px #b7b6b6;
-    margin: 15px;
+    box-shadow: 1px 1px 19px #b7b6b6;
+    margin: 55px;
     width: 600px;
 }
 
+.fullm
+{
+    width: 70%;
+    margin: auto;
+}
+
+.titre 
+{
+    text-align: center;
+    font-size: 58px;
+    font-weight: bold;
+}
 
 /*bas de page*/
 
@@ -57,9 +73,9 @@ img
     background-color: #009688;
     color: #FFE082;
     margin-bottom: 125px;
-    margin-right: 45%;
-    margin-left: 45%;
-    font-size: 25px;
+    margin-right: 43%;
+    margin-left: 43%;
+    font-size: 32px;
     border-radius: 5px;
 }
 
@@ -72,5 +88,11 @@ footer
     justify-content: space-between;
     background-color: #009688;
     color: #FFE082;
-    font-size: 25px;
+    font-size: 32px;
+    align-items: center;
+}
+
+a{
+    color: #FFE082;
+    text-decoration: none;
 }
