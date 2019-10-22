@@ -58,7 +58,7 @@ img
     margin: auto;
 }
 
-.titre 
+#titre 
 {
     text-align: center;
     font-size: 58px;
@@ -95,4 +95,17 @@ footer
 a{
     color: #FFE082;
     text-decoration: none;
+}
+
+/*menu la note enchantée*/
+
+#m_section
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.dish
+{
+    display: flex;
 }
