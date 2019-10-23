@@ -108,4 +108,15 @@ a{
 .dish
 {
     display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#menu_lne
+{
+    background-color: #ffebee;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
 }
