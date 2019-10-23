@@ -99,6 +99,16 @@ a{
 
 /*menu la note enchantée*/
 
+@font-face 
+{
+    font-family: 'segoeprint';
+    src: url('webfonts/segoeprint.eot');
+    src: url('webfonts/segoeprint.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/segoeprint.woff') format('woff'),
+        url('webfonts/segoeprint.ttf') format('truetype'),
+        url('webfonts/segoeprint.svg') format('svg');
+}
+
 #m_section
 {
     display:flex;
@@ -109,8 +119,8 @@ a{
 {
     display: flex;
     justify-content: space-between;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 17%;
+    margin-left: 17%;
 }
 
 #menu_lne
@@ -119,4 +129,5 @@ a{
     text-align: center;
     margin-right: 25%;
     margin-left: 25%;
+    font-family: "Segoe Print";
 }
