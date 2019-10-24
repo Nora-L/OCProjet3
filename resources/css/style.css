@@ -1,15 +1,17 @@
+/*Full page*/
 
+body{
+    margin: 0;
+}
 
 
 /*haut de la page*/
 
-#logo
-{
+#logo{
     background-color: #009688;
 }
 
-.entete
-{
+.entete{
     margin: auto;
     width: 565px;
     padding: 77px;
@@ -18,57 +20,70 @@
 
 /*menus*/
 
-img
-{
+img{
     width: 100%;
     height: auto;
     display: block;
 }
 
-#content
-{
+#content{
     display: flex;
     flex-direction: column;
 }
 
-#top
-{
+#top{
     display: flex;
     margin: auto;
     justify-content: center;
 }
 
-#bottom
-{
+#bottom{
     display: flex;
     margin: auto;
     justify-content: center;
 }
 
-.menu
-{
+.menu{
     box-shadow: 1px 1px 19px #b7b6b6;
     margin: 55px;
     width: 600px;
 }
 
-.fullm
-{
+.fullm{
     width: 70%;
     margin: auto;
 }
 
-#titre 
-{
+#titre {
     text-align: center;
     font-size: 58px;
     font-weight: bold;
 }
 
+/*titres/logo*/
+
+#logob{
+    width: 45%;
+    margin: auto;
+}
+
+h1{
+
+}
+
+h2:before, h2:after {
+    content: "";
+    width: 246px;
+    border: solid black 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
 /*bas de page*/
 
-#next
-{
+#next{
     text-align: center;
     background-color: #009688;
     color: #FFE082;
@@ -79,8 +94,7 @@ img
     border-radius: 5px;
 }
 
-footer
-{
+footer{
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -99,8 +113,7 @@ a{
 
 /*menu la note enchantée*/
 
-@font-face 
-{
+@font-face {
     font-family: 'segoeprint';
     src: url('webfonts/segoeprint.eot');
     src: url('webfonts/segoeprint.eot?#iefix') format('embedded-opentype'),
@@ -109,22 +122,19 @@ a{
         url('webfonts/segoeprint.svg') format('svg');
 }
 
-#m_section
-{
+#m_section{
     display:flex;
     flex-direction: column;
 }
 
-.dish
-{
+.dish{
     display: flex;
     justify-content: space-between;
-    margin-right: 17%;
-    margin-left: 17%;
+    margin-right: 12%;
+    margin-left: 12%;
 }
 
-#menu_lne
-{
+#menu_lne{
     background-color: #ffebee;
     text-align: center;
     margin-right: 25%;
