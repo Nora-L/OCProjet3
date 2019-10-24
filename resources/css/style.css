@@ -4,7 +4,6 @@ body{
     margin: 0;
 }
 
-
 /*haut de la page*/
 
 #logo{
@@ -60,26 +59,15 @@ img{
     font-weight: bold;
 }
 
-/*titres/logo*/
-
-#logob{
-    width: 45%;
-    margin: auto;
-}
+/*titres*/
 
 h1{
-
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 15px;
 }
 
-h2:before, h2:after {
-    content: "";
-    width: 246px;
-    border: solid black 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 60px;
-    margin-right: 60px;
-}
 
 /*bas de page*/
 
@@ -87,14 +75,15 @@ h2:before, h2:after {
     text-align: center;
     background-color: #009688;
     color: #FFE082;
-    margin-bottom: 125px;
-    margin-right: 43%;
-    margin-left: 43%;
-    font-size: 32px;
+    margin-bottom: 188px;
+    margin-right: 39%;
+    margin-left: 39%;
+    font-size: 55px;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
-footer{
+#foot{
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -104,11 +93,23 @@ footer{
     color: #FFE082;
     font-size: 32px;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
 }
 
 a{
     color: #FFE082;
     text-decoration: none;
+}
+
+#mentions{
+    margin-left: 40px;
+}
+
+#contact{
+    margin-right: 40px;
 }
 
 /*menu la note enchantée*/
@@ -139,5 +140,25 @@ a{
     text-align: center;
     margin-right: 25%;
     margin-left: 25%;
-    font-family: "Segoe Print";
+    font-family: "segoeprint";
+    box-shadow: 1px 1px 19px #b7b6b6;
+    color: #3D1319;
+}
+
+
+#logob{
+    width: 37%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.h2_lne:before, .h2_lne:after {
+    content: "";
+    width: 246px;
+    border: solid black 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 60px;
+    margin-right: 60px;
 }
