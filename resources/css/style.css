@@ -241,12 +241,56 @@ a{
 
 /*Menu le délice des papilles*/
 
+
 #menu_ldp{
-    font-family: "notoserif";
+    font-family: "segoeprint";
     text-align: center;
     margin-right: 25%;
     margin-left: 25%;
     box-shadow: 1px 1px 19px #b7b6b6;
-    background-color: #FFF5FE;
+    background-color: #EDEFEF;
     padding-bottom: 125px;
 }
+
+#logo_ldp{
+    width: 60%;
+    margin: auto;
+    padding-top: 125px;
+    padding-bottom: 80px;
+}
+
+.h2_ldp_t .h2_ldp_m .h2_ldp_b{
+    display: block;
+}
+
+.h2_ldp_t:before, .h2_ldp_t:after {
+    content: "";
+    width: 173px;
+    border: solid#0228DD 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.h2_ldp_m:before, .h2_ldp_m:after {
+    content: "";
+    width: 186px;
+    border: solid#0670F3 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.h2_ldp_b:before, .h2_ldp_b:after {
+    content: "";
+    width: 190px;
+    border: solid#229DF9 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*Menu La palette du goût*/
