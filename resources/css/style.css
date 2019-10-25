@@ -59,19 +59,15 @@ img{
     margin: auto;
 }
 
-#titre {
-    text-align: center;
-    font-size: 58px;
-    font-weight: bold;
-}
-
 /*titres*/
 
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 50px;
-    margin-bottom: 15px;
+    margin-top: 65px;
+    margin-bottom: 23px;
+    text-align: center;
 }
 
 
@@ -209,16 +205,48 @@ a{
     color: #6E4CCC;
 }
 
-.h2_lcf{
+.h2_lcf_t .h2_lcf_m .h2_lcf_b{
     display: block;
 }
 
-.h2_lcf:before, .h2_lcf:after {
+.h2_lcf_t:before, .h2_lcf_t:after {
     content: "";
-    width: 248px;
-    border: solid #3D1319 3px;
+    width: 160px;
+    border: solid#C67412 3px;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.h2_lcf_m:before, .h2_lcf_m:after {
+    content: "";
+    width: 200px;
+    border: solid#A56799 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.h2_lcf_b:before, .h2_lcf_b:after {
+    content: "";
+    width: 179px;
+    border: solid#6E4CCC 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*Menu le délice des papilles*/
+
+#menu_ldp{
+    font-family: "notoserif";
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    box-shadow: 1px 1px 19px #b7b6b6;
+    background-color: #FFF5FE;
+    padding-bottom: 125px;
 }
