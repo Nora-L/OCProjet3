@@ -294,3 +294,96 @@ a{
 }
 
 /*Menu La palette du goût*/
+
+#menu_lpg{
+    font-family: "segoeprint";
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    box-shadow: 1px 1px 19px #b7b6b6;
+    background-color: #EDEFEF;
+    padding-bottom: 125px;
+}
+
+#logo_lpg{
+    width: 60%;
+    margin: auto;
+    padding-top: 110px;
+    padding-bottom: 80px;
+}
+
+.h2_lpg_t .h2_lpg_m .h2_lpg_b{
+    display: block;
+}
+
+.h2_lpg_t:before{
+    content: "";
+    width: 255px;
+    border: solid 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-image-source: linear-gradient(to right,#43973D, #72BF56,#BEFF7F);
+    border-image-slice: 3;
+}
+
+.h2_lpg_t:after{
+    content: "";
+    width: 255px;
+    border: solid 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-image-source: linear-gradient(to left,#43973D, #72BF56,#BEFF7F);
+    border-image-slice: 3;
+}
+
+.h2_lpg_m:before{
+    content: "";
+    width: 200px;
+    border: solid#0670F3 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-image-source: linear-gradient(to right,#43973D, #72BF56,#BEFF7F);
+    border-image-slice: 3;
+}
+
+.h2_lpg_m:after{
+    content: "";
+    width: 200px;
+    border: solid#0670F3 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-image-source: linear-gradient(to left,#43973D, #72BF56,#BEFF7F);
+    border-image-slice: 3;
+}
+
+.h2_lpg_b:before{
+    content: "";
+    width: 188px;
+    border: solid 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-image-source: linear-gradient(to right,#43973D, #72BF56,#BEFF7F);
+    border-image-slice: 3;
+}
+
+.h2_lpg_b:after{
+    content: "";
+    width: 188px;
+    border: solid 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-image-source: linear-gradient(to left,#43973D, #72BF56,#BEFF7F);
+    border-image-slice: 3;
+}
