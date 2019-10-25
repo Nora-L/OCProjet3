@@ -179,12 +179,6 @@ a{
         url('webfonts/notoserif-regular.svg') format('svg');
 }
 
-//#titre_lcf{
-    font-family: "croissantone";
-    background: -webkit-linear-gradient(215deg,#C67412, #A56799,#6E4CCC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 #menu_lcf{
     font-family: "notoserif";
@@ -193,6 +187,7 @@ a{
     margin-left: 25%;
     box-shadow: 1px 1px 19px #b7b6b6;
     background-color: #FFF5FE;
+    padding-bottom: 125px;
 }
 
 #logo_lcf{
@@ -200,4 +195,30 @@ a{
     margin: auto;
     padding-top: 125px;
     padding-bottom: 80px;
+}
+
+#top_m{
+    color: #C67412;
+}
+
+#mid_m{
+    color: #A56799;
+}
+
+#bot_m{
+    color: #6E4CCC;
+}
+
+.h2_lcf{
+    display: block;
+}
+
+.h2_lcf:before, .h2_lcf:after {
+    content: "";
+    width: 248px;
+    border: solid #3D1319 3px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 60px;
+    margin-right: 60px;
 }
