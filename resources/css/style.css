@@ -7,7 +7,7 @@ body{
 /*haut de la page*/
 
 #logo{
-    background-color: #009688;
+    background-color: #579C87;
 }
 
 .entete{
@@ -19,6 +19,11 @@ body{
 
 /*menus*/
 
+.m_section{
+    display:flex;
+    flex-direction: column;
+}
+
 img{
     width: 100%;
     height: auto;
@@ -28,6 +33,7 @@ img{
 #content{
     display: flex;
     flex-direction: column;
+    margin-bottom: 180px;
 }
 
 #top{
@@ -73,8 +79,8 @@ h1{
 
 #next{
     text-align: center;
-    background-color: #009688;
-    color: #FFE082;
+    background-color: #579C87;
+    color: #FDCB46;
     margin-bottom: 188px;
     margin-right: 39%;
     margin-left: 39%;
@@ -89,8 +95,8 @@ h1{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #009688;
-    color: #FFE082;
+    background-color: #579C87;
+    color: #FDCB46;
     font-size: 32px;
     align-items: center;
     font-family: 'Poppins', sans-serif;
@@ -100,7 +106,7 @@ h1{
 }
 
 a{
-    color: #FFE082;
+    color: #FDCB46;
     text-decoration: none;
 }
 
@@ -123,11 +129,6 @@ a{
         url('webfonts/segoeprint.svg') format('svg');
 }
 
-#m_section{
-    display:flex;
-    flex-direction: column;
-}
-
 .dish{
     display: flex;
     justify-content: space-between;
@@ -146,7 +147,7 @@ a{
 }
 
 
-#logob{
+#logo_lne{
     width: 37%;
     margin: auto;
     padding-top: 40px;
@@ -155,10 +156,48 @@ a{
 
 .h2_lne:before, .h2_lne:after {
     content: "";
-    width: 246px;
-    border: solid black 3px;
+    width: 248px;
+    border: solid #3D1319 3px;
     display: inline-block;
     vertical-align: middle;
     margin-left: 60px;
     margin-right: 60px;
+}
+
+.h2_lne{
+    display: block;
+}
+
+/*Menu le chic a la francaise*/
+
+@font-face {
+    font-family: 'notoserif';
+    src: url('webfonts/notoserif-regular.eot');
+    src: url('webfonts/notoserif-regular.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/notoserif-regular.woff') format('woff'),
+        url('webfonts/notoserif-regular.ttf') format('truetype'),
+        url('webfonts/notoserif-regular.svg') format('svg');
+}
+
+//#titre_lcf{
+    font-family: "croissantone";
+    background: -webkit-linear-gradient(215deg,#C67412, #A56799,#6E4CCC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#menu_lcf{
+    font-family: "notoserif";
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    box-shadow: 1px 1px 19px #b7b6b6;
+    background-color: #FFF5FE;
+}
+
+#logo_lcf{
+    width: 50%;
+    margin: auto;
+    padding-top: 125px;
+    padding-bottom: 80px;
 }
