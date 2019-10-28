@@ -33,7 +33,6 @@ img{
 #content{
     display: flex;
     flex-direction: column;
-    margin-bottom: 180px;
 }
 
 #top{
@@ -150,19 +149,26 @@ a{
     padding-bottom: 40px;
 }
 
-.h2_lne:before, .h2_lne:after {
-    content: "";
-    width: 248px;
-    border: solid #3D1319 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 60px;
-    margin-right: 60px;
+.lne_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
-.h2_lne{
-    display: block;
+.hr_lne{
+    border: solid #3D1319 2px;
+    width: 30%;
+    height: 0;
 }
+
+
+.h2_lne{
+    flex-basis: 30%;
+    white-space: nowrap;
+}
+
 
 /*Menu le chic a la francaise*/
 
@@ -175,6 +181,14 @@ a{
         url('webfonts/notoserif-regular.svg') format('svg');
 }
 
+@font-face {
+    font-family: 'serif12';
+    src: url('webfonts/serif12beta.eot');
+    src: url('webfonts/serif12beta.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/serif12beta.woff') format('woff'),
+        url('webfonts/serif12beta.ttf') format('truetype'),
+        url('webfonts/serif12beta.svg') format('svg');
+}
 
 #menu_lcf{
     font-family: "notoserif";
@@ -205,38 +219,37 @@ a{
     color: #6E4CCC;
 }
 
-.h2_lcf_t .h2_lcf_m .h2_lcf_b{
-    display: block;
+.hr_lcf_t{
+    border: solid #C67412 2px;
+    width: 26%;
+    height: 0;
 }
 
-.h2_lcf_t:before, .h2_lcf_t:after {
-    content: "";
-    width: 160px;
-    border: solid#C67412 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+.hr_lcf_m{
+    border: solid #A56799 2px;
+    width: 31%;
+    height: 0;
 }
 
-.h2_lcf_m:before, .h2_lcf_m:after {
-    content: "";
-    width: 200px;
-    border: solid#A56799 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+.hr_lcf_b{
+    border: solid #6E4CCC 2px;
+    width: 28%;
+    height: 0;
 }
 
-.h2_lcf_b:before, .h2_lcf_b:after {
-    content: "";
-    width: 179px;
-    border: solid#6E4CCC 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+
+.h2_lcf{
+    flex-basis: 30%;
+    white-space: nowrap;
+}
+
+.lcf_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: "serif12";
 }
 
 /*Menu le délice des papilles*/
@@ -258,39 +271,38 @@ a{
     padding-top: 125px;
     padding-bottom: 80px;
 }
-
-.h2_ldp_t .h2_ldp_m .h2_ldp_b{
-    display: block;
+ 
+    /*borders*/
+.hr_ldp_t{
+    border: solid #0228DD 2px;
+    width: 27%;
+    height: 0;
 }
 
-.h2_ldp_t:before, .h2_ldp_t:after {
-    content: "";
-    width: 173px;
-    border: solid#0228DD 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+.hr_ldp_m{
+    border: solid #0670F3 2px;
+    width: 29%;
+    height: 0;
 }
 
-.h2_ldp_m:before, .h2_ldp_m:after {
-    content: "";
-    width: 186px;
-    border: solid#0670F3 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+.hr_ldp_b{
+    border: solid #229DF9 2px;
+    width: 30%;
+    height: 0;
 }
 
-.h2_ldp_b:before, .h2_ldp_b:after {
-    content: "";
-    width: 190px;
-    border: solid#229DF9 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+
+.h2_ldp{
+    flex-basis: 30%;
+    white-space: nowrap;
+}
+
+.ldp_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 /*Menu La palette du goût*/
@@ -311,79 +323,97 @@ a{
     padding-top: 110px;
     padding-bottom: 80px;
 }
-
-.h2_lpg_t .h2_lpg_m .h2_lpg_b{
-    display: block;
-}
-
-.h2_lpg_t:before{
-    content: "";
-    width: 255px;
-    border: solid 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+  /*border top*/
+.hr_lpg_tb{
+    border: solid 2px;
+    width: 37%;
+    height: 0;
     border-image-source: linear-gradient(to right,#43973D, #72BF56,#BEFF7F);
     border-image-slice: 3;
 }
 
-.h2_lpg_t:after{
-    content: "";
-    width: 255px;
-    border: solid 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+.hr_lpg_ta{
+    border: solid 2px;
+    width: 37%;
+    height: 0;
     border-image-source: linear-gradient(to left,#43973D, #72BF56,#BEFF7F);
     border-image-slice: 3;
 }
 
-.h2_lpg_m:before{
-    content: "";
-    width: 200px;
-    border: solid#0670F3 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+   /*border middle*/
+.hr_lpg_mb{
+    border: solid 2px;
+    width: 30%;
+    height: 0;
     border-image-source: linear-gradient(to right,#43973D, #72BF56,#BEFF7F);
     border-image-slice: 3;
 }
 
-.h2_lpg_m:after{
-    content: "";
-    width: 200px;
-    border: solid#0670F3 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+.hr_lpg_ma{
+    border: solid 2px;
+    width: 30%;
+    height: 0;
     border-image-source: linear-gradient(to left,#43973D, #72BF56,#BEFF7F);
     border-image-slice: 3;
 }
 
-.h2_lpg_b:before{
-    content: "";
-    width: 188px;
-    border: solid 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+   /*border bottom*/
+.hr_lpg_bb{
+    border: solid 2px;
+    width: 30%;
+    height: 0;
     border-image-source: linear-gradient(to right,#43973D, #72BF56,#BEFF7F);
     border-image-slice: 3;
 }
 
-.h2_lpg_b:after{
-    content: "";
-    width: 188px;
-    border: solid 3px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 50px;
+.hr_lpg_ba{
+    border: solid 2px;
+    width: 30%;
+    height: 0;
     border-image-source: linear-gradient(to left,#43973D, #72BF56,#BEFF7F);
     border-image-slice: 3;
+}
+
+
+.h2_lpg{
+    flex-basis: 30%;
+    white-space: nowrap;
+}
+
+.lpg_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+/**ANIMATIONS**/
+
+/**Effet Zoom**/
+
+@keyframes zoomeffect{
+    0%{
+        transform: scale(1,1);
+        overflow:hidden;
+    }
+
+    50%{
+        transform: scale(1.2,1.2);
+        overflow:hidden;
+    }
+
+    100%{
+        transform: scale(1,1);
+        overflow:hidden;    }
+}
+
+.menu{
+    overflow:hidden;
+    opacity: 100%;
+}
+
+.menu:hover{
+    animation: zoomeffect 3s;
 }
