@@ -394,27 +394,34 @@ a{
 /**Effet Zoom**/
 
 @keyframes zoomeffect{
-    0%{
+    from{
         transform: scale(1,1);
-        opacity: 100%;
+        opacity: 1;
     }
 
-    50%{
+    to{
         transform: scale(1.2,1.2);
-        opacity: 50%;
-    }
-
-    100%{
-        transform: scale(1,1);
-        opacity: 0%;
+        opacity: 0.2;
     }
 }
 
 .menu{
-    overflow:hidden;
-    opacity: 100%;
+    overflow: hidden;
+    background-size: cover;
 }
 
 .menu:hover{
     animation: zoomeffect 3s;
+}
+
+/**Effet wiggle*/
+
+@keyframes wiggle {
+    0% { transform: translate(2px, 0); }
+    50% { transform: translate(-2px, 0); }
+    100% { transform: translate(2px, 0); }
+  }
+
+a:hover #contact:hover{
+    animation: wiggle 3ms infinite;
 }
