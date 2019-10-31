@@ -393,14 +393,9 @@ a{
         opacity: 1;
     }
 
-    50%{
-        transform: scale(1.2,1.2);
-        opacity: 0.2;
-    }
-
     to{
-        transform: scale(1,1);
-        opacity: 1;
+        transform: scale(1.2,1.2);
+        opacity: 0.3;
     }
 }
 
@@ -412,38 +407,38 @@ a{
 }
 
 .menu:hover{
-    animation: zoomeffect 5s;
+    animation: zoomeffect 1s forwards;
 }
 
 /**Effet wiggle*/
 
 @keyframes wiggle {
-    15%{
-        -webkit-transform: translateX(5px);
+    from{
+        -webkit-transform: translateX(15px);
         transform: translateX(5px);
     }
 
     30%{
-        -webkit-transform: translateX(-5px);
-        transform: translateX(-5px);
+        -webkit-transform: translateX(-15px);
+        transform: translateX(-15px);
     }
 
     50%{
-        -webkit-transform: translateX(3px);
-        transform: translateX(3px);
+        -webkit-transform: translateX(30px);
+        transform: translateX(30px);
     }
 
     65%{
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
+        -webkit-transform: translateX(-30px);
+        transform: translateX(-30px);
     }
 
     80%{
-        -webkit-transform: translateX(2px);
-        transform: translateX(2px);
+        -webkit-transform: translateX(20px);
+        transform: translateX(20px);
     }
 
-    100%{
+    to{
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
@@ -454,5 +449,6 @@ a{
 }
 
 #mentions:hover, #contact:hover{
-    animation: wiggle 3ms;
+    animation: wiggle 50ms;
+    animation-direction: reverse;
 }
