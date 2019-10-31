@@ -47,12 +47,6 @@ img{
     justify-content: center;
 }
 
-.menu{
-    box-shadow: 1px 1px 19px #b7b6b6;
-    margin: 55px;
-    width: 600px;
-}
-
 .fullm{
     width: 70%;
     margin: auto;
@@ -399,29 +393,66 @@ a{
         opacity: 1;
     }
 
-    to{
+    50%{
         transform: scale(1.2,1.2);
         opacity: 0.2;
     }
+
+    to{
+        transform: scale(1,1);
+        opacity: 1;
+    }
 }
 
+
 .menu{
-    overflow: hidden;
-    background-size: cover;
+    box-shadow: 1px 1px 19px #b7b6b6;
+    margin: 55px;
+    max-width: 600px;
 }
 
 .menu:hover{
-    animation: zoomeffect 3s;
+    animation: zoomeffect 5s;
 }
 
 /**Effet wiggle*/
 
 @keyframes wiggle {
-    0% { transform: translate(2px, 0); }
-    50% { transform: translate(-2px, 0); }
-    100% { transform: translate(2px, 0); }
-  }
+    15%{
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
 
-a:hover #contact:hover{
-    animation: wiggle 3ms infinite;
+    30%{
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+
+    50%{
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+
+    65%{
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+
+    80%{
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+
+    100%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+#mentions, #contact{
+    overflow: hidden;
+}
+
+#mentions:hover, #contact:hover{
+    animation: wiggle 3ms;
 }
