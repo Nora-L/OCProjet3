@@ -438,27 +438,21 @@ a{
 
 @keyframes underline{
     from{
-        border-bottom: solid black 1px;
-        border-width: 0px;
-    }
-
-    50%{
-        border-bottom: solid black 1px;
-        border-width: 50%;
+        width: 0px;
     }
 
     to{
-        border-bottom: solid black 1px;
-        border-width: 100%;
+        width: 25%;
     }
 
 }
 
-h2{
-    text-decoration: none;
+.line{
+    border-bottom: none;
 }
 
 h2:hover{
-    animation: underline 13s ease-in-out;
+    animation: underline 3s ease-in-out;
+    border-bottom: solid black 2px;
 }
 /*Points de suspension*/
