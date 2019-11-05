@@ -71,8 +71,8 @@ h1{
     background-color: #579C87;
     color: #FDCB46;
     margin-bottom: 188px;
-    margin-right: 39%;
-    margin-left: 39%;
+    margin-right: 37%;
+    margin-left: 37%;
     font-size: 55px;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
@@ -413,25 +413,29 @@ a{
 /**Effet wiggle*/
 
 @keyframes wiggle {
-    from{
-    
+    0%{
+        transform: rotate(0deg);
     }
-
-
+    20%{
+        transform: rotate(-2deg);
     }
-
-    to{
-       
+    40%{
+        transform: rotate(2deg);
+    }
+    60%{
+        transform: rotate(-2deg);
+    }
+    80%{
+        transform: rotate(2deg);
+    }
+    100%{
+        transform: rotate(0deg);
     }
 }
 
-#mentions, #contact{
-    overflow: hidden;
-}
 
 #mentions:hover, #contact:hover{
-    animation: wiggle 50ms;
-    animation-direction: reverse;
+    animation: wiggle 0.5s infinite;
 }
 
 /*Soulignement*/
@@ -452,15 +456,11 @@ a{
 }
 
 h2:hover{
-    animation: underline 3s ease-in-out;
+    animation: underline 5s ease-in-out;
     border-bottom: solid black 2px;
 }
 /*Points de suspension*/
 
-@keyframes loading{
-    
-}
+#mentions#contact{
 
-#next:hover{
-    color: transparent;  
-}
+    
