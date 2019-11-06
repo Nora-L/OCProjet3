@@ -136,6 +136,7 @@ a{
     text-align: center;
     margin-right: 29em;
     margin-left: 29em;
+    margin-bottom: 13em;
     font-family: "segoeprint";
     box-shadow: 1px 1px 19px #b7b6b6;
     color: #3D1319;
@@ -195,6 +196,7 @@ a{
     text-align: center;
     margin-right: 29em;
     margin-left: 29em;
+    margin-bottom: 13em;
     box-shadow: 1px 1px 19px #b7b6b6;
     background-color: #FFF5FE;
     padding-bottom: 125px;
@@ -260,6 +262,7 @@ a{
     text-align: center;
     margin-right: 29em;
     margin-left: 29em;
+    margin-bottom: 13em;
     box-shadow: 1px 1px 19px #b7b6b6;
     background-color: #EDEFEF;
     padding-bottom: 125px;
@@ -393,14 +396,26 @@ a{
 
 /**Effet Zoom**/
 
-@keyframes zoomeffect{
+@-webkit-keyframes zoomeffect{
     from{
-        transform: scale(1,1);
+        transform: scale(1);
         opacity: 1;
     }
 
     to{
-        transform: scale(1.2,1.2);
+        transform: scale(1.2);
+        opacity: 0.3;
+    }
+}
+
+@keyframes zoomeffect{
+    from{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to{
+        transform: scale(1.2);
         opacity: 0.3;
     }
 }
@@ -408,7 +423,7 @@ a{
 
 .menu{
     box-shadow: 1px 1px 19px #b7b6b6;
-    margin: 55px;
+    margin: 4em;
     max-width: 600px;
 }
 
@@ -417,6 +432,27 @@ a{
 }
 
 /**Effet wiggle*/
+
+@-webkit-keyframes wiggle {
+    0%{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(-2deg);
+    }
+    40%{
+        transform: rotate(2deg);
+    }
+    60%{
+        transform: rotate(-2deg);
+    }
+    80%{
+        transform: rotate(2deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
 
 @keyframes wiggle {
     0%{
@@ -446,6 +482,17 @@ a{
 
 /*Soulignement*/
 
+@-webkit-keyframes underline{
+    from{
+        width: 0px;
+    }
+
+    to{
+        width: 25%;
+    }
+}
+
+
 @keyframes underline{
     from{
         width: 0px;
@@ -454,7 +501,6 @@ a{
     to{
         width: 25%;
     }
-
 }
 
 .line{
