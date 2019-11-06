@@ -396,88 +396,50 @@ a{
 
 /**Effet Zoom**/
 
-@-webkit-keyframes zoomeffect{
-    from{
-        transform: scale(1);
-        opacity: 1;
-    }
-
-    to{
-        transform: scale(1.2);
-        opacity: 0.3;
-    }
-}
-
-@keyframes zoomeffect{
-    from{
-        transform: scale(1);
-        opacity: 1;
-    }
-
-    to{
-        transform: scale(1.2);
-        opacity: 0.3;
-    }
-}
-
 
 .menu{
     box-shadow: 1px 1px 19px #b7b6b6;
     margin: 4em;
     max-width: 600px;
+    overflow: hidden;
+}
+.menu img{
+    transition: all 1s ease-in-out;
 }
 
-.menu:hover{
-    animation: zoomeffect 1s forwards;
+.menu:hover img{
+    transform: scale(1.2);
+    opacity: 0.3;
+    transition: all 1s ease-in-out;
 }
 
 /**Effet wiggle*/
 
-@-webkit-keyframes wiggle {
-    0%{
-        transform: rotate(0deg);
-    }
-    20%{
-        transform: rotate(-2deg);
-    }
-    40%{
-        transform: rotate(2deg);
-    }
-    60%{
-        transform: rotate(-2deg);
-    }
-    80%{
-        transform: rotate(2deg);
-    }
-    100%{
-        transform: rotate(0deg);
-    }
-}
 
-@keyframes wiggle {
-    0%{
-        transform: rotate(0deg);
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(0, -1px, 0);
     }
-    20%{
-        transform: rotate(-2deg);
+    
+    20%, 80% {
+      transform: translate3d(0, 2px, 0);
     }
-    40%{
-        transform: rotate(2deg);
+  
+    30%, 50%, 70% {
+      transform: translate3d(0, -4px, 0);
     }
-    60%{
-        transform: rotate(-2deg);
+  
+    40%, 60% {
+      transform: translate3d(0, 4px, 0);
     }
-    80%{
-        transform: rotate(2deg);
-    }
-    100%{
-        transform: rotate(0deg);
-    }
-}
+  }
 
 
 #mentions:hover, #contact:hover{
-    animation: wiggle 0.5s infinite;
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
 }
 
 /*Soulignement*/
@@ -513,6 +475,77 @@ h2:hover{
 }
 /*Points de suspension*/
 
-#mentions#contact{
+.point{
+    opacity: 0;
+    display: none;
+}
 
-    
+#next:hover .point{
+    display:inline;
+}
+
+@keyframes point1animation{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#next:hover .point1{
+    animation: point1animation 3s ease-in-out infinite alternate;
+}
+
+@keyframes point2animation{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#next:hover .point2{
+    animation: point2animation 3s ease-in-out infinite alternate;
+}
+
+@keyframes point3animation{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#next:hover .point3{
+    animation: point3animation 3s ease-in-out infinite alternate;
+}
