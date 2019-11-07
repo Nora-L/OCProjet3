@@ -6,8 +6,8 @@ body{
 
 #legal{
     margin: 5% 15% 10%;
-    padding: 45px 67px 40px
-    background-color:#579C87;
+    padding: 45px 67px 40px;
+    background-color: #579C87;
 }
 
 /*haut de la page*/
@@ -191,6 +191,15 @@ a{
         url('webfonts/serif12beta.svg') format('svg');
 }
 
+@font-face {
+    font-family: 'croissantone';
+    src: url('webfonts/croissantone-regular.eot');
+    src: url('webfonts/croissantone-regular.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/croissantone-regular.woff') format('woff'),
+        url('webfonts/croissantone-regular.ttf') format('truetype'),
+        url('webfonts/croissantone-regular.svg') format('svg');
+}
+
 #menu_lcf{
     font-family: "notoserif";
     text-align: center;
@@ -207,6 +216,15 @@ a{
     margin: auto;
     padding-top: 125px;
     padding-bottom: 80px;
+}
+
+#lcf_logo{
+    margin: 2em 0 1em;
+    font-size: 50px;
+    font-family: "croissantone";
+    background: linear-gradient(to right,#C67412, #A56799,#6E4CCC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #top_m{
@@ -503,7 +521,7 @@ h2:hover{
 }
 
 #next:hover .point1{
-    animation: point1animation 3s ease-in-out infinite alternate;
+    animation: point1animation 2s ease-in-out infinite;
 }
 
 @keyframes point2animation{
@@ -525,7 +543,7 @@ h2:hover{
 }
 
 #next:hover .point2{
-    animation: point2animation 3s ease-in-out infinite alternate;
+    animation: point2animation 2s ease-in-out infinite;
 }
 
 @keyframes point3animation{
@@ -547,5 +565,5 @@ h2:hover{
 }
 
 #next:hover .point3{
-    animation: point3animation 3s ease-in-out infinite alternate;
+    animation: point3animation 2s ease-in-out infinite;
 }
