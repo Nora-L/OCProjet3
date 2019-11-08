@@ -211,15 +211,8 @@ a{
     padding-bottom: 125px;
 }
 
-#logo_lcf{
-    width: 50%;
-    margin: auto;
-    padding-top: 125px;
-    padding-bottom: 80px;
-}
-
 #lcf_logo{
-    margin: 2em 0 1em;
+    margin: 2em 0 2em;
     font-size: 50px;
     font-family: "croissantone";
     background: linear-gradient(to right,#C67412, #A56799,#6E4CCC);
@@ -274,6 +267,15 @@ a{
 
 /*Menu le délice des papilles*/
 
+@font-face {
+    font-family: 'dancingscript';
+    src: url('webfonts/dancing_script.eot');
+    src: url('webfonts/dancing_script.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/dancing_script.woff') format('woff'),
+        url('webfonts/dancing_script.ttf') format('truetype'),
+        url('webfonts/dancing_script.svg') format('svg');
+}
+
 
 #menu_ldp{
     font-family: "segoeprint";
@@ -286,12 +288,15 @@ a{
     padding-bottom: 125px;
 }
 
-#logo_ldp{
-    width: 60%;
-    margin: auto;
-    padding-top: 125px;
-    padding-bottom: 80px;
+#ldp_logo{
+    margin: 2em 0 1em;
+    font-size: 70px;
+    font-family: "dancingscript";
+    background: linear-gradient(to right,#0228DD, #0670F3,#229DF9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
  
     /*borders*/
 .hr_ldp_t{
@@ -328,22 +333,37 @@ a{
 
 /*Menu La palette du goût*/
 
+@font-face {
+    font-family: 'kaushanscript';
+    src: url('webfonts/kaushanscript-regular.eot');
+    src: url('webfonts/kaushanscript-regular.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/kaushanscript-regular.woff') format('woff'),
+        url('webfonts/kaushanscript-regular.ttf') format('truetype'),
+        url('webfonts/kaushanscript-regular.svg') format('svg');
+}
+
 #menu_lpg{
     font-family: "segoeprint";
     text-align: center;
     margin-right: 29em;
     margin-left: 29em;
+    margin-bottom: 13em;
     box-shadow: 1px 1px 19px #b7b6b6;
     background-color: #EDEFEF;
     padding-bottom: 125px;
+    padding-top: 2em;
 }
 
-#logo_lpg{
-    width: 60%;
-    margin: auto;
-    padding-top: 110px;
-    padding-bottom: 80px;
-}
+#lpg_logo{
+    margin: 1em 0 1em;
+    font-size: 75px;
+    font-family: "kaushanscript";
+    background: linear-gradient(to right,#43973D, #72BF56,#BEFF7F);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+
   /*border top*/
 .hr_lpg_tb{
     border: solid 2px;
