@@ -160,13 +160,13 @@ a{
 
 .hr_lne{
     border: solid #3D1319 2px;
-    width: 30%;
+    width: 39vh;
     height: 0;
 }
 
 
 .h2_lne{
-    flex-basis: 30%;
+    flex-basis: 30vh;
     white-space: nowrap;
 }
 
@@ -482,35 +482,17 @@ a{
 
 /*Soulignement*/
 
-@-webkit-keyframes underline{
-    from{
-        width: 0px;
-    }
-
-    to{
-        width: 25%;
-    }
-}
-
-
-@keyframes underline{
-    from{
-        width: 0px;
-    }
-
-    to{
-        width: 25%;
-    }
-}
 
 .line{
-    border-bottom: none;
+    text-decoration: none;
+    background: linear-gradient(to top, black, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
 }
 
-h2:hover{
-    animation: underline 5s ease-in-out;
-    border-bottom: solid black 2px;
+.line:hover{
+    background-size: 100% 100%;
 }
+
 /*Points de suspension*/
 
 .point{
