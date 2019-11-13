@@ -84,6 +84,10 @@ h1{
     padding: 15px 1em 15px 1em;
 }
 
+#bouton{
+    text-align: center;
+}
+
 #foot{
     position: fixed;
     bottom: 0;
@@ -190,15 +194,27 @@ a{
     padding-left: 6em;
 }
 
-.hr_lne{
+.hr_lne_t{
     border: solid #3D1319 2px;
-    width: 40vh;
+    width: 16vw;
+    height: 0;
+}
+
+.hr_lne_m{
+    border: solid #3D1319 2px;
+    width: 15vw;
+    height: 0;
+}
+
+.hr_lne_b{
+    border: solid #3D1319 2px;
+    width: 14vw;
     height: 0;
 }
 
 
 .h2_lne{
-    flex-basis: 30vh;
+    flex-basis: 5vw;
     white-space: nowrap;
 }
 
