@@ -124,6 +124,15 @@ a{
         url('webfonts/segoeprint.svg') format('svg');
 }
 
+@font-face {
+    font-family: 'devonshire';
+    src: url('webfonts/devonshire-Regular.eot');
+    src: url('webfonts/devonshire-Regular.eot?#iefix') format('embedded-opentype'),
+        url('webfonts/devonshire-Regular.woff') format('woff'),
+        url('webfonts/devonshire-Regular.ttf') format('truetype'),
+        url('webfonts/devonshire-Regular.svg') format('svg');
+}
+
 .dish{
     display: flex;
     justify-content: space-between;
@@ -142,12 +151,35 @@ a{
     color: #3D1319;
 }
 
-
-#logo_lne{
-    width: 37%;
+#lne_top{
     margin: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 5vh;
+}
+
+#lne_bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw 0 3.5vw;
+}
+
+#logo_top{
+    width: 9vw;
+    margin: auto;
+}
+
+#logo_bot{
+    width: 14vh;
+}
+
+#top_title{
+    font-family: "devonshire";
+    font-size: 3.5vw;
+}
+
+#bot_title{
+    font-family: "devonshire";
+    font-size: 2.5vw;
 }
 
 .lne_title{
@@ -160,7 +192,7 @@ a{
 
 .hr_lne{
     border: solid #3D1319 2px;
-    width: 39vh;
+    width: 40vh;
     height: 0;
 }
 
