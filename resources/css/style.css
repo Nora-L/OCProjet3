@@ -76,12 +76,12 @@ h1{
     text-align: center;
     background-color: #579C87;
     color: #FDCB46;
-    margin-bottom: 188px;
-    margin-right: 13em;
-    margin-left: 13em;
+    margin: 1em 0 4em;
     font-size: 55px;
-    border-radius: 5px;
+    border-radius: 0.4em;
     font-family: 'Poppins', sans-serif;
+    border: 0;
+    padding: 15px 1em 15px 1em;
 }
 
 #foot{
