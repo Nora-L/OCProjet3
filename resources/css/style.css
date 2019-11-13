@@ -518,8 +518,13 @@ a{
 .line .souligne{
     text-decoration: none;
     transition: background-size .5s;
-    height: 5px;
+    height: 2px;
 }
+
+.line1 .souligne{
+    background: linear-gradient(to top, #3D1319, #3D1319 0%) no-repeat left bottom / 0 100%;
+}
+
 
 .line2 .souligne{
     background: linear-gradient(to top, #C67412, #C67412 0%) no-repeat left bottom / 0 100%;
@@ -530,6 +535,28 @@ a{
 }
 
 .line4 .souligne{
+    background: linear-gradient(to top, #6E4CCC, #6E4CCC 0%) no-repeat left bottom / 0 100%;
+}
+
+.line5 .souligne{
+    background: linear-gradient(to top, #0228DD, #0228DD 0%) no-repeat left bottom / 0 100%;
+}
+
+.line6 .souligne{
+    background: linear-gradient(to top, #0670F3, #0670F3 0%) no-repeat left bottom / 0 100%;
+}
+
+.line7 .souligne{
+    background: linear-gradient(to top, #229DF9, #229DF9 0%) no-repeat left bottom / 0 100%;
+}
+
+.line8 .souligne{
+    background: linear-gradient(to right, #43973D, #72BF56, #BEFF7F 100%) no-repeat left bottom / 0 100%;
+}
+
+
+
+.line10 .souligne{
     background: linear-gradient(to top, #6E4CCC, #6E4CCC 0%) no-repeat left bottom / 0 100%;
 }
 
