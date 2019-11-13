@@ -78,7 +78,7 @@ h1{
     color: #FDCB46;
     margin: 1em 0 4em;
     font-size: 55px;
-    border-radius: 0.4emgi;
+    border-radius: 0.4em;
     font-family: 'Poppins', sans-serif;
     border: 0;
     padding: 15px 1em 15px 1em;
@@ -515,13 +515,25 @@ a{
 /*Soulignement*/
 
 
-.line{
+.line .souligne{
     text-decoration: none;
-    background: linear-gradient(to top, black, transparent 10.01%) no-repeat left bottom / 0 100%;
     transition: background-size .5s;
+    height: 5px;
 }
 
-.line:hover{
+.line2 .souligne{
+    background: linear-gradient(to top, #C67412, #C67412 0%) no-repeat left bottom / 0 100%;
+}
+
+.line3 .souligne{
+    background: linear-gradient(to top, #A56799, #A56799 0%) no-repeat left bottom / 0 100%;
+}
+
+.line4 .souligne{
+    background: linear-gradient(to top, #6E4CCC, #6E4CCC 0%) no-repeat left bottom / 0 100%;
+}
+
+.line:hover .souligne{
     background-size: 100% 100%;
 }
 
