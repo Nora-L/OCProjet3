@@ -686,8 +686,8 @@ a{
         padding: 0;
     }
 
-    #bouton{
-        width: 35%;
+    #next{
+        font-size: 1em; 
     }
 }
 
@@ -710,8 +710,8 @@ a{
         padding: 0;
     }
 
-    #bouton{
-        width: 35%;
+    #next{
+        font-size: 1em; 
     }
 }
 
@@ -733,11 +733,7 @@ a{
         padding: 0;
     }
 
-    #bouton{
-        width: 15%;
-    }
-
     #next{
-        width: 15%;
+        font-size: 1em; 
     }
 }
