@@ -734,6 +734,10 @@ a{
     }
 
     #bouton{
-        width: 35%;
+        width: 15%;
+    }
+
+    #next{
+        width: 15%;
     }
 }
