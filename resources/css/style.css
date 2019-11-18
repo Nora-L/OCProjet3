@@ -686,7 +686,7 @@ a{
         padding: 0;
     }
 
-    #next{
+    #next, #foot{
         font-size: 1em; 
     }
 }
@@ -710,7 +710,7 @@ a{
         padding: 0;
     }
 
-    #next{
+    #next, #foot{
         font-size: 1em; 
     }
 }
@@ -733,7 +733,7 @@ a{
         padding: 0;
     }
 
-    #next{
+    #next, #foot{
         font-size: 1em; 
     }
 }
