@@ -28,6 +28,8 @@ body{
 .m_section{
     display:flex;
     flex-direction: column;
+    margin-right: 12%;
+    margin-left: 12%;
 }
 
 img{
@@ -140,8 +142,6 @@ a{
 .dish{
     display: flex;
     justify-content: space-between;
-    margin-right: 7em;
-    margin-left: 7em;
 }
 
 #menu_lne{
@@ -196,19 +196,19 @@ a{
 
 .hr_lne_t{
     border: solid #3D1319 2px;
-    width: 16vw;
+    width: 36%;
     height: 0;
 }
 
 .hr_lne_m{
     border: solid #3D1319 2px;
-    width: 15vw;
+    width: 33%;
     height: 0;
 }
 
 .hr_lne_b{
     border: solid #3D1319 2px;
-    width: 14vw;
+    width: 31%;
     height: 0;
 }
 
@@ -282,7 +282,7 @@ a{
 
 .hr_lcf_t{
     border: solid #C67412 2px;
-    width: 26%;
+    width: 25%;
     height: 0;
 }
 
@@ -355,13 +355,13 @@ a{
 
 .hr_ldp_m{
     border: solid #0670F3 2px;
-    width: 29%;
+    width: 28%;
     height: 0;
 }
 
 .hr_ldp_b{
     border: solid #229DF9 2px;
-    width: 30%;
+    width: 29%;
     height: 0;
 }
 
@@ -415,7 +415,7 @@ a{
   /*border top*/
 .hr_lpg_tb{
     border: solid 2px;
-    width: 37%;
+    width: 36%;
     height: 0;
     border-image-source: linear-gradient(to right,#43973D, #72BF56,#BEFF7F);
     border-image-slice: 3;
@@ -423,7 +423,7 @@ a{
 
 .hr_lpg_ta{
     border: solid 2px;
-    width: 37%;
+    width: 36%;
     height: 0;
     border-image-source: linear-gradient(to left,#43973D, #72BF56,#BEFF7F);
     border-image-slice: 3;
@@ -449,7 +449,7 @@ a{
    /*border bottom*/
 .hr_lpg_bb{
     border: solid 2px;
-    width: 30%;
+    width: 29%;
     height: 0;
     border-image-source: linear-gradient(to right,#43973D, #72BF56,#BEFF7F);
     border-image-slice: 3;
@@ -457,7 +457,7 @@ a{
 
 .hr_lpg_ba{
     border: solid 2px;
-    width: 30%;
+    width: 29%;
     height: 0;
     border-image-source: linear-gradient(to left,#43973D, #72BF56,#BEFF7F);
     border-image-slice: 3;
@@ -665,6 +665,7 @@ a{
         margin-right: 9%;
         margin-left: 9%;
     }
+
 }
 
 @media screen all and (min width: 900px) and (max-width: 1280px)
@@ -683,6 +684,10 @@ a{
         margin-right: 9%;
         margin-left: 9%;
         padding: 0;
+    }
+
+    #bouton{
+        width: 35%;
     }
 }
 
@@ -704,6 +709,10 @@ a{
         margin-left: 9%;
         padding: 0;
     }
+
+    #bouton{
+        width: 35%;
+    }
 }
 
 @media screen all and (min width: 480px) and (max-width: 768px)
@@ -722,5 +731,9 @@ a{
         margin-right: 9%;
         margin-left: 9%;
         padding: 0;
+    }
+
+    #bouton{
+        width: 35%;
     }
 }
