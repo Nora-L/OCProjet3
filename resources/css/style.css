@@ -7,7 +7,7 @@ body{
 #legal{
     margin: 5% 15% 10%;
     padding: 45px 67px 40px;
-    background-color: #579C87;
+    box-shadow: 1px 1px 19px #b7b6b6;
 }
 
 /*haut de la page*/
@@ -190,8 +190,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 6em;
-    padding-left: 6em;
+    padding-right: 9%;
+    padding-left: 9%;
 }
 
 .hr_lne_t{
@@ -208,7 +208,7 @@ a{
 
 .hr_lne_b{
     border: solid #3D1319 2px;
-    width: 31%;
+    width: 32%;
     height: 0;
 }
 
@@ -678,11 +678,19 @@ a{
     
     #next{
         font-size: 38px;
-        margin: 0 0 15%; 
+        margin: 0 0 20%; 
     }
 
     #foot{
         font-size: 29px;
+    }
+
+    #legal {
+        margin: 5%;
+    }
+
+    h1 {
+        font-size: 30px;
     }
 }
 
@@ -707,11 +715,18 @@ a{
 
     #next{
         font-size: 38px;
-        margin: 0 0 15%; 
+        margin: 0 0 20%; 
     }
 
     #foot{
         font-size: 25px;
+    }
+
+    #legal {
+        margin: 5%;
+    }
+    h1 {
+        font-size: 30px;
     }
 }
 
@@ -735,13 +750,18 @@ a{
         padding: 0;
     }
 
+    .lne_title{
+        padding-right: 12%;
+        padding-left: 12%;
+    }
+
     .menu{
         max-width: 60%;
     }
 
     #next{
         font-size: 28px;
-        margin: 0 0 15%; 
+        margin: 0 0 20%; 
     }
 
     #foot{
@@ -756,4 +776,14 @@ a{
         font-size: 25px;
     }
 
+    #legal {
+        margin: 5%;
+    }
+    h1 {
+        font-size: 30px;
+    }
+
+    .dish {
+        text-align: left;
+    }
 }
