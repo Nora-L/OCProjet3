@@ -288,7 +288,7 @@ a{
 
 .hr_lcf_m{
     border: solid #A56799 2px;
-    width: 31%;
+    width: 30%;
     height: 0;
 }
 
@@ -765,7 +765,7 @@ a{
     }
 
     #foot{
-        font-size: 19px;
+        font-size: 15px;
     }
 
     #lpg_logo, #ldp_logo, #lcf_logo, #top_title{
@@ -778,6 +778,7 @@ a{
 
     #legal {
         margin: 5%;
+        padding: 7%;
     }
     h1 {
         font-size: 30px;
@@ -785,5 +786,20 @@ a{
 
     .dish {
         text-align: left;
+    }
+
+    .lcf_title {
+        padding-right: 11%;
+        padding-left: 11%;
+    }
+
+    .ldp_title{
+        padding-right: 12%;
+        padding-left: 12%;
+    }
+
+    .lpg_title {
+        padding-right: 11%;
+        padding-left: 11%;
     }
 }
