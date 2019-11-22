@@ -130,14 +130,6 @@ a{
         url('webfonts/segoeprint.svg') format('svg');
 }
 
-@font-face {
-    font-family: 'devonshire';
-    src: url('webfonts/devonshire-Regular.eot');
-    src: url('webfonts/devonshire-Regular.eot?#iefix') format('embedded-opentype'),
-        url('webfonts/devonshire-Regular.woff') format('woff'),
-        url('webfonts/devonshire-Regular.ttf') format('truetype'),
-        url('webfonts/devonshire-Regular.svg') format('svg');
-}
 
 .dish{
     display: flex;
@@ -177,12 +169,12 @@ a{
 }
 
 #top_title{
-    font-family: "devonshire";
+    font-family: 'Devonshire', cursive;
     font-size: 66px;
 }
 
 #bot_title{
-    font-family: "devonshire";
+    font-family: 'Devonshire', cursive;
     font-size: 45px;
 }
 
