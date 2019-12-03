@@ -575,7 +575,7 @@ a{
 }
 
 #next:hover .point{
-    display:inline;
+    display: inline;
 }
 
 @keyframes point1animation{
