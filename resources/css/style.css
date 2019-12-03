@@ -521,7 +521,7 @@ a{
 
 
 .line .souligne{
-    display:
+    display: block;
     text-decoration: none;
     transition: background-size .5s;
     height: 2px;
