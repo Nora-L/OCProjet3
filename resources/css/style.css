@@ -495,34 +495,33 @@ a{
 
 @keyframes shake {
     10%, 90% {
-      transform: translate3d(0, -1px, 0);
+      transform: translate(0, -1px);
     }
     
     20%, 80% {
-      transform: translate3d(0, 2px, 0);
+      transform: translate(0, 2px);
     }
   
     30%, 50%, 70% {
-      transform: translate3d(0, -4px, 0);
+      transform: translate(0, -4px);
     }
   
     40%, 60% {
-      transform: translate3d(0, 4px, 0);
+      transform: translate(0, 4px);
     }
   }
 
 
 #mentions:hover, #contact:hover{
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
+    animation: shake 0.82s;
+    transform: translate(0, 0);
 }
 
 /*Soulignement*/
 
 
 .line .souligne{
+    display:
     text-decoration: none;
     transition: background-size .5s;
     height: 2px;
