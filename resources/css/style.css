@@ -514,7 +514,6 @@ a{
 
 #mentions:hover, #contact:hover{
     animation: shake 0.82s;
-    transform: translate(0, 0);
 }
 
 /*Soulignement*/
@@ -604,7 +603,7 @@ a{
     0%{
         opacity: 0;
     }
-    30%{
+    40%{
         opacity: 1;
     }
     60%{
@@ -626,7 +625,7 @@ a{
     0%{
         opacity: 0;
     }
-    50%{
+    60%{
         opacity: 1;
     }
     80%{
