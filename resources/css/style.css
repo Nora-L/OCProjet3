@@ -681,7 +681,7 @@ a{
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 900px)
+@media screen and (min-width: 768px) and (max-width: 899px)
 {
     #top, #bottom{
         display: flex;
@@ -717,7 +717,7 @@ a{
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px)
+@media screen and (min-width: 320px) and (max-width: 767px)
 {
     #content{
         display: flex;
